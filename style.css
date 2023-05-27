@@ -12,13 +12,16 @@
 }
 
 
+/* Header **********************************************************************************/
+
 
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
-    background-color:var(--color-4);
+    background-color:var(--color-1);
+    color: var(--color-4);
     height: 150px;
 }
 
@@ -26,10 +29,102 @@ header {
     header {
         font-size: 1em;
     }
- }
+}
 
 
+/* Main*************************************************************************************/
+
+main {
+    background-color: var(--color-2);
+}
+
+#container {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-2 {
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
+.btn {
+    border: solid 6px;
+    border-radius: 50%;
+    border-color: var(--color-1);
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    border-color: var(--color-5);
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#reloadPage {
+    padding: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+#btnReload {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-1);
+    color: var(--color-4);
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+}
+
+#btnReload:hover{
+    border-style: solid;
+    border-color: var(--color-4);
+}
+
+@media screen and (max-width: 600px) {
+    
+    .btn {
+        height: 200px;
+    }
+
+    #btnReload {
+        height: 50px;
+    }
+
+}
+
+/* Footer ************************************************************************************/
+
+footer {
+    background-color: var(--color-5);
+}
+
+footer p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 30px;
+   color: var(--color-1);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-4);
+}
 
 
