@@ -1,0 +1,30 @@
+:root {
+    --color-1: #025159; 
+    --color-2: #3E848C;
+    --color-3: #7AB8BF; 
+    --color-4: #C4EEF2;  
+    --color-5: #A67458; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1.5rem;
+    background-color:var(--color-4);
+    height: 150px;
+}
+
+
+
+
+
+
+
+
