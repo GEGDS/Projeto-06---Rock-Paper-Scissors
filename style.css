@@ -14,14 +14,19 @@
 
 
 header {
-    text-align: center;
-    padding-top: 50px;
-    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
     background-color:var(--color-4);
     height: 150px;
 }
 
-
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 1em;
+    }
+ }
 
 
 
